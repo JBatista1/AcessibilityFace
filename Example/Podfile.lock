@@ -1,0 +1,16 @@
+PODS:
+  - AcessibilityFace (0.1.0)
+
+DEPENDENCIES:
+  - AcessibilityFace (from `../`)
+
+EXTERNAL SOURCES:
+  AcessibilityFace:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AcessibilityFace: caed8249efddb76bd81f82b6c68b87a6d6bead6b
+
+PODFILE CHECKSUM: 932ab6b0df4fc2aca126211d4793da6142f11001
+
+COCOAPODS: 1.10.1

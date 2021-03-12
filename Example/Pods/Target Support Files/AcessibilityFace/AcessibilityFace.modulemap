@@ -1,0 +1,6 @@
+framework module AcessibilityFace {
+  umbrella header "AcessibilityFace-umbrella.h"
+
+  export *
+  module * { export * }
+}
