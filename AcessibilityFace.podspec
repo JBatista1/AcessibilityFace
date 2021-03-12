@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'AcessibilityFace'
   s.version          = '0.0.1'
   s.summary          = 'Pega a movimentação da face do usuário e cria um cursor virtual no dispositivo. (Somente iphones X ou superior)'
-
+  s.swift_version = '5.0'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'Source/**/*.swift'
+  s.source_files = 'Source/**/*'
   
   # s.resource_bundles = {
   #   'AcessibilityFace' => ['AcessibilityFace/Resource/Assets/*.pdf']
