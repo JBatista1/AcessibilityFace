@@ -10,6 +10,7 @@
 		1D7A459EA4560F9708D99A2B03969F34 /* Pods-AcessibilityFace_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6912129B730A6C99709EB66FA1E46D /* Pods-AcessibilityFace_Example-dummy.m */; };
 		23B31F6C09AB913A4CF2E02784ACE542 /* Pods-AcessibilityFace_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E4C01169D5ACC75C94094C86B8E6DB /* Pods-AcessibilityFace_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79148CF1D9A6C90534850D3B3ADE3AD5 /* Pods-AcessibilityFace_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F03E42CE099F36EE361953C537ADBB93 /* Pods-AcessibilityFace_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A4D373425FC14D500F6723E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4D373325FC14D500F6723E /* Assets.xcassets */; };
 		9AC1D16425FC0EFD0072D444 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1D12D25FC0EFD0072D444 /* UIViewControllerExtension.swift */; };
 		9AC1D16525FC0EFD0072D444 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1D12E25FC0EFD0072D444 /* CGFloatExtension.swift */; };
 		9AC1D16625FC0EFD0072D444 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1D12F25FC0EFD0072D444 /* UITableViewExtension.swift */; };
@@ -98,6 +99,7 @@
 		8F4079C0A1873B4A1FA8D1D1D2B040CF /* Pods_AcessibilityFace_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcessibilityFace_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		907AC7FC43B085C0D72ABC8C03571EBA /* Pods-AcessibilityFace_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AcessibilityFace_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		97DABADCDDF42EAD3BE5785AA0DF4E47 /* Pods-AcessibilityFace_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AcessibilityFace_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A4D373325FC14D500F6723E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AC1D12D25FC0EFD0072D444 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		9AC1D12E25FC0EFD0072D444 /* CGFloatExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
 		9AC1D12F25FC0EFD0072D444 /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
@@ -230,9 +232,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9A4D373225FC14CA00F6723E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9A4D373325FC14D500F6723E /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		9AC1D12A25FC0ED90072D444 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				9A4D373225FC14CA00F6723E /* Resource */,
 				9AC1D12B25FC0EFD0072D444 /* BusinessRules */,
 				9AC1D15D25FC0EFD0072D444 /* Core */,
 			);
@@ -578,6 +589,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					BFD85F798BFB466C40BD15CE9BDD90BA = {
+						LastSwiftMigration = 1170;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -604,6 +620,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A4D373425FC14D500F6723E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -828,7 +845,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -983,7 +1000,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

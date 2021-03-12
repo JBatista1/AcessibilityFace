@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>&quot;Gostaria de utilizar o Speech para reconhecer os comandos&quot;</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>&quot;Gostaria de utilizar o microfone para pegar os seus comandos&quot;</string>
+	<key>NSCameraUsageDescription</key>
+	<string>&quot;Gostaria de utilizar sua camera para pegar seus movimentos&quot;</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -33,7 +39,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
 </dict>
 </plist>

@@ -28,11 +28,11 @@ Pod::Spec.new do |s|
     Para uma melhor utilização do usuário existe a classe AcessibilityGetSensitivityViewController, que tem função de capturar as limitações da face do usuário e assim se adequando ao seu ritmo.
                        DESC
 
-  s.homepage         = 'https://github.com/JBatista1/AcessibilityFaceMouse'
+  s.homepage         = 'https://github.com/JBatista1/AcessibilityFace.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'João Batista' => 'j.batista.damasceno@icloud.com' }
-  s.source           = { :git => 'https://github.com/JBatista1/AcessibilityFaceMouse.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/JBatista1/AcessibilityFace.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
