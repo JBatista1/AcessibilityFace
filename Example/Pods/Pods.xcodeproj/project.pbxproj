@@ -243,7 +243,6 @@
 		9AC1D12A25FC0ED90072D444 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				9A4D373225FC14CA00F6723E /* Resource */,
 				9AC1D12B25FC0EFD0072D444 /* BusinessRules */,
 				9AC1D15D25FC0EFD0072D444 /* Core */,
 			);
@@ -468,6 +467,7 @@
 		B9CCCDD0CF17B52BAB2D379A554BECAF /* AcessibilityFace */ = {
 			isa = PBXGroup;
 			children = (
+				9A4D373225FC14CA00F6723E /* Resource */,
 				9AC1D12A25FC0ED90072D444 /* Source */,
 				0CBA46B2528C5FDC57D83CBA3800A0AA /* Pod */,
 				AD4E7DD8BD7F2136FAC18DC11BC7679F /* Support Files */,

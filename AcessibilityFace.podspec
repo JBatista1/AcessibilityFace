@@ -35,12 +35,12 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/JBatista1/AcessibilityFace.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'AcessibilityFace/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
   
   # s.resource_bundles = {
-  #   'AcessibilityFace' => ['AcessibilityFace/Assets/*.png']
+  #   'AcessibilityFace' => ['AcessibilityFace/Resource/Assets/*.pdf']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
